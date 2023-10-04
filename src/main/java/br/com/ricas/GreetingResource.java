@@ -13,4 +13,12 @@ public class GreetingResource {
     public String hello() {
         return "Hello from RESTEasy Reactive";
     }
+
+
+    @GET
+    @Path("/app/application-0-qobua/endpoint/movies")
+    @Produces(MediaType.APPLICATION_JSON)
+    public String getMoviesData() {
+        return null;
+    }
 }

@@ -19,7 +19,7 @@ public class MoviesResource {
     MoviesService moviesService;
 
     @Inject
-    @ConfigProperty(name = "mongodb.http.api")
+    @ConfigProperty(name = "mongodb.http.apikey")
     String apiKey;
 
     @GET

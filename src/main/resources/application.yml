@@ -1,0 +1,11 @@
+#quarkus:
+#  http:
+#    root-path: /
+#    port: 5000
+#  rest-client:
+#    disable-ssl-validation: true
+#    movies:
+#      url: https://sa-east-1.aws.data.mongodb-api.com
+#mongodb:
+#  http:
+#    apikey: fake

@@ -16,7 +16,6 @@ import java.util.List;
 public class MoviesResource {
     @RestClient
     MoviesService moviesService;
-
     @Inject
     @ConfigProperty(name = "mongodb.http.apikey")
     String apiKey;

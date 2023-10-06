@@ -14,7 +14,6 @@ import java.util.List;
 
 @Path("/movies")
 public class MoviesResource {
-
     @RestClient
     MoviesService moviesService;
 

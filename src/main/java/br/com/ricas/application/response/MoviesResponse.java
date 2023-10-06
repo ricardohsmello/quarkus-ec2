@@ -48,4 +48,3 @@ public class MoviesResponse {
         return super.toString();
     }
 }
-

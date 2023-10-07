@@ -11,6 +11,7 @@ import java.util.List;
 
 @RegisterRestClient(configKey = "movies")
 public interface MoviesService {
+
     @GET
     @Path("/app/application-0-qobua/endpoint/movies")
     @Produces(MediaType.APPLICATION_JSON)

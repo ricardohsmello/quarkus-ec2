@@ -1,6 +1,6 @@
 package br.com.ricas.application.web;
 
- import br.com.ricas.application.response.MoviesResponse;
+import br.com.ricas.application.response.MoviesResponse;
 import br.com.ricas.domain.service.MoviesService;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.eclipse.microprofile.rest.client.inject.RestClient;

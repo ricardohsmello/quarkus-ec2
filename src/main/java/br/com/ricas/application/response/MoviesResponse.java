@@ -42,7 +42,6 @@ public class MoviesResponse {
     public void setElenco(List<String> elenco) {
         this.elenco = elenco;
     }
-
     @Override
     public String toString() {
         return super.toString();

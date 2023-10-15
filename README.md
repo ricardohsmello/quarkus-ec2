@@ -17,8 +17,7 @@ quarkus dev -D mongodb.http.api=apivalue
 The application can be packaged using:
 ```shell script
 ./gradlew build
-``` 
-
+```
 It produces the `quarkus-run.jar` file in the `build/quarkus-app/` directory.
 Be aware that it’s not an _über-jar_ as the dependencies are copied into the `build/quarkus-app/lib/` directory.
 
